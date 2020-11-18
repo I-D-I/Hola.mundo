@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: '@project.artifactId@'
+#  main:
+#    log-startup-info: true
+#  output:
+#    ansi:
+#      enabled: always
+    
+    
