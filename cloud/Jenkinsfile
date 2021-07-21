@@ -1,4 +1,5 @@
-@Library('jenkins-libraries@master') _
+properties([parameters([string(name: 'LIB_VERSION', defaultValue: 'master')])])
+library "my-shared-library@${params.LIB_VERSION}"
 
 
 helloworld()
